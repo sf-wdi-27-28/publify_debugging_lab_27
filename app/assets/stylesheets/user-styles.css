@@ -28,10 +28,10 @@ img.right {
   margin: -8px; padding: 8px;
 }
 
-#sidebar .sidebar_title {
+#sidebar .sidebar-title {
   font-family: monospace;
 }
 
-#sidebar .sidebar_body li {
+#sidebar .sidebar-body li {
   list-style-type: circle;
 }
