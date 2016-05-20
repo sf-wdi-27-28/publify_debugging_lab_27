@@ -27,11 +27,3 @@ img.right {
   background: #fff;
   margin: -8px; padding: 8px;
 }
-
-#sidebar .sidebar-title h1 h2 h3{
-  font-family: monospace;
-}
-
-#sidebar .sidebar-body li ul {
-  list-style-type: circle;
-}
