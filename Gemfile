@@ -45,7 +45,7 @@ gem 'uglifier', '>= 1.3.0'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails', '~> 4.0.4'
-
+gem 'listen', '~> 3.1', '>= 3.1.3'
 gem 'jquery-ui-rails', '~> 5.0.2'
 gem 'RedCloth', '~> 4.2.8'
 gem 'actionpack-page_caching', '~> 1.0.2' # removed from Rails-core as Rails 4.0
