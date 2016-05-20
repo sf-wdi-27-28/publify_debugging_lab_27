@@ -33,5 +33,5 @@ img.right {
 }
 
 #sidebar .sidebar-body li {
-  list-style-type: circle;
+  list-style-type: monospace;
 }
