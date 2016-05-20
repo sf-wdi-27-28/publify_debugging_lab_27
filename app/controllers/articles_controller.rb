@@ -101,6 +101,7 @@ class ArticlesController < ContentController
   end
 
   def archives
+    # debugger
     limit = this_blog.limit_archives_display
     @articles = this_blog.published_articles.page(params[:page]).per(limit)
     @page_title = this_blog.archives_title_template.to_title(@articles, this_blog, params)
@@ -146,6 +147,7 @@ class ArticlesController < ContentController
 
   # See an article We need define @article before
   def show_article
+    # binding.binding.pry
     @comment = Comment.new
     @page_title = this_blog.article_title_template.to_title(@article, this_blog, params)
     @description = this_blog.article_desc_template.to_title(@article, this_blog, params)
